@@ -14,7 +14,7 @@ class VerifyCsrfToken
      * @var array<int, string>
      */
     protected $except = [
-        '/v1/notes/*',
+        'v1/*',
     ];
 
     /**

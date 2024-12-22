@@ -17,7 +17,6 @@ class NoteResource extends JsonResource
         return [
             'id' => $this -> id,
             'name' => $this -> name,
-            'description' => $this -> description,
             'isComplete' => (boolean) $this -> isComplete,
             'created_at' => $this -> created_at -> format('d-m-Y'),
         ];
